@@ -1,36 +1,37 @@
+# AlienSoft Frontend Test – Product Management App
+
+This is my submission for the AlienSoft frontend intern test. A mini Product Management App built with Vue 3, Pinia, Vue Router, and Tailwind CSS.  
+
+
 ## Setup
 
-1. Clone the repo:
+1. Clone the repo:  
    git clone <your-repo-link>
 
-2. Go to the project folder:
+2. Go to the project folder:  
    cd <project-folder>
 
-3. Install dependencies:
+3. Install dependencies:  
    npm install
 
-4. Run the development server:
+4. Run the development server:  
    npm run dev
 
-5. Open in browser:
-   Usually http://localhost:5173
+5. Open in browser:  
+   Usually at http://localhost:5173
 
-Test Login Credentials
+## Test Credentials (DummyJSON)
+- Username: `john@example.com`
+- Password: `1234`
 
-Since this project uses local dummy authentication for demonstration, use any of the following credentials:
+## Structure & Assumptions
+- Pinia used for **Auth** and **Product** state management.  
+- Vue Router for navigation and route protection.  
+- Tailwind CSS for styling, primary color #000080.  
+- Products are fetched from **DummyJSON** API.  
+- All CRUD operations handled via Pinia actions.  
+- Login persists token in localStorage for session.  
 
-User 1
 
-Username: john_doe
 
-Email: john@example.com
 
-Password: 1234
-
-User 2
-
-Username: jane_smith
-
-Email: jane@example.com
-
-Password: abcd
